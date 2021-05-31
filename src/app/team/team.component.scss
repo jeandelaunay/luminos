@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  background-color: #1c1c1c;
+  align-items: center;
+  border-bottom: 5px solid #6f6f6f;
+}
+
+nav h1{
+  color: #e0e0e0;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+nav .onglets{
+  margin-top: 3px;
+  margin-left: 300px;
+}
+nav .onglets a{
+  text-decoration: none;
+  color: #e0e0e0;
+  margin-right: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+header object{
+  padding: 60px;
+}
+
+header h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: #1c1c1c;
+}
+
+header h4{
+  margin-top: -20px;
+  font-size: 20px;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+.main{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .content .card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom:20px;
+}
+.main .content .card .left{
+  flex: 0 0 30%;
+  padding: 20px;
+  background-color:black;
+  color:#fff;
+}
+.main .content .card .right img{
+  height:300px;
+  width: 250px;
+  margin-top: 5px;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  background-color: #1c1c1c;
+  align-items: center;
+  border-bottom: 5px solid #6f6f6f;
+}
+
+nav h1{
+  color: #e0e0e0;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+nav .onglets{
+  margin-top: 3px;
+  margin-left: 300px;
+}
+nav .onglets a{
+  text-decoration: none;
+  color: #e0e0e0;
+  margin-right: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+.main{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.main .content .card{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  margin-bottom:20px;
+}
+.main .content .card .left{
+  flex: 0 0 500px;
+  padding: 20px;
+  background-color:black;
+  color:#fff;
+}
+.main .content .card .right img{
+  height:300px;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.main .content .card .right object{
+  height:300px;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.main .even{
+  margin-left: 500px ;
+}
+

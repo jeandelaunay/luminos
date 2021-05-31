@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  background-color: #1c1c1c;
+  align-items: center;
+  border-bottom: 5px solid #6f6f6f;
+}
+
+nav h1{
+  color: #e0e0e0;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+nav .onglets{
+  margin-top: 3px;
+  margin-left: 300px;
+}
+nav .onglets a{
+  text-decoration: none;
+  color: #e0e0e0;
+  margin-right: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  background: url('https://cdn.futura-sciences.com/buildsv6/images/wide1920/b/7/3/b73d6c1ac0_50169517_pollution-lumineuse-nature.jpg');
+  background-size: cover;
+  color: #e0e0e0;
+}
+
+header object{
+  padding: 60px;
+}
+
+header h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  ;
+}
+header h4{
+  margin-top: -20px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+footer{
+  margin-top: 10px;
+  border-top: 5px solid #6f6f6f;
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 30px 100px;;
+}
+footer h1{
+  font-family: 'Playfair Display', serif;
+  border-bottom: 1px solid white;
+  width: 30%;
+  color: #e0e0e0;
+  padding-bottom: 5px;
+}
+
+footer #contact{
+  color: rgb(181, 181, 181);
+}
